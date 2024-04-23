@@ -53,6 +53,6 @@ jobs:
             sudo docker rm attach || true
             sudo docker run -d \
               --name attach \
-              -p 9001:9001 \
+              -p 9000:9000 \
               -v /home/ec2-user/upload:/app/upload \
               aassdd236/attach:latest
